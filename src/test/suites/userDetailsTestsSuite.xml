@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User Details Tests" thread-count="4" parallel="tests">
+    <test name="CheckoutYourInformationTest">
+        <classes>
+            <class name="tests.productsTests.CheckoutYourInformationTest"></class>
+        </classes>
+    </test>
+    <test name="CheckoutYourInformationProblemUser">
+        <classes>
+            <class name="tests.productsTests.CheckoutYourInformationProblemUser"></class>
+        </classes>
+    </test>
+    <test name="CheckoutOverviewTest">
+        <classes>
+            <class name="tests.productsTests.CheckoutOverviewTest"></class>
+        </classes>
+    </test>
+    <test name="CheckoutOverviewErrorUser">
+        <classes>
+            <class name="tests.productsTests.CheckoutOverviewErrorUser"></class>
+        </classes>
+    </test>
+    </suite>
